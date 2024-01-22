@@ -1,0 +1,120 @@
+@import "~bootstrap/scss/bootstrap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 100px;
+}
+header {
+  margin: 0;
+  position: relative;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  i {
+    font-style: italic;
+  }
+}
+.text-right {
+  text-align: right;
+}
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  ul {
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid lightgrey;
+    // border-bottom: 1px solid lightgrey;
+    li {
+      list-style: none;
+      font-size: large;
+      text-transform: capitalize;
+      a {
+        color: grey;
+      }
+    }
+  }
+}
+main {
+  margin: 0;
+  padding-top: 1rem;
+  .post-details {
+    .pageTitle {
+      h3.emphasis {
+        font-style: italic;
+        font-family: auto;
+        font-weight: bold;
+      }
+    }
+  }
+}
+.sidebar {
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+      a {
+        font-weight: 600;
+      }
+    }
+  }
+  .card {
+    border: none;
+    .card-body {
+      background-color: #f8f9fa;
+      border-radius: 5px;
+    }
+  }
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  .container {
+    height: 100px;
+    background: #f9f9f9;
+    border-top: 2px solid #e5e5e5;
+  }
+}
+.jumbportan {
+  margin: 0;
+  padding: 5rem;
+  background-color: #2d2d2d;
+  color: white;
+  Button {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  nav {
+    display: none;
+  }
+}
