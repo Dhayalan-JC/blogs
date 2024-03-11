@@ -28,7 +28,7 @@ export class PostDetails extends Component {
                 <div className="card">
                   <div className="card-body p-0 d-flex">
                     <div className="col-sm-6 p-4">
-                      <div>World</div>
+                      <div className="bg-green">World</div>
                       <div className="card-title">
                         <h2>Featured post</h2>
                       </div>
